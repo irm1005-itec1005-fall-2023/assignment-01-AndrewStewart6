@@ -92,6 +92,7 @@
     </section>
     <section>
       <h2 id="sucess">Success of the Nation</h2>
+      <p>The following table contains information on how many views each video has achieved since release as well as the release date to indicate the overall sucess of Boberto Nation.</p>
       <table>
         <thead>
           <tr>
@@ -261,6 +262,27 @@
     </section>
     <section>
       <h2 id="contact">Contact</h2>
+      <p>For any related feedback, please contact me using the following form;</p>
+      <form>
+        <fieldset>
+         <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+         <label for="email">Email:</label>
+          <input type="email" id="email" autocomplete="email" required/>
+        <label for="phone">Phone:</label>
+         <input type="tel" id="phone" autocomplete="tel" reqired />
+         <label>Feedback Type:</label>
+          <input type="radio" id="suggestion" name="feedback_type" value="suggestion" required />
+         <label for="suggestion">Suggestion</label>
+          <input type="radio" id="concern" name="feedback_type" value="concern" />
+         <label for="concern">Concern</label>
+          <input type="radio" id="appreciation" name="feedback_type" value="appreciation" />
+         <label for="appreciation">Appreciation</label>
+         <label for="feedback">Feedback:</label>
+          <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea>
+          <input type="submit" value="Submit Feedback" />
+       </fieldset>
+      </form>
     </section>
     <section>
      <h2 id="about">About Boberto Nation</h2>
